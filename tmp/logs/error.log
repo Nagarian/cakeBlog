@@ -1,0 +1,95 @@
+2014-04-03 12:07:56 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\Skydrive\Documents\Project\www\cakephp\index.php(41): require('E:\Skydrive\Doc...')
+#2 {main}
+2014-04-03 12:15:48 Error: [MissingActionException] Action CakephpController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'index',
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 E:\Skydrive\Documents\Project\www\cakephp\index.php(41): require('E:\Skydrive\Doc...')
+#4 {main}
+2014-04-03 12:16:11 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Cakephp\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Cakephp\\index.ctp',
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 E:\Skydrive\Documents\Project\www\cakephp\index.php(41): require('E:\Skydrive\Doc...')
+#6 {main}
+2014-04-03 12:16:52 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Cakephp\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Cakephp\\index.ctp',
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 E:\Skydrive\Documents\Project\www\cakephp\index.php(41): require('E:\Skydrive\Doc...')
+#6 {main}
+2014-04-03 13:53:56 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-03 15:03:01 Error: [MissingControllerException] Controller class AdministratorController could not be found.
+Exception Attributes: array (
+  'class' => 'AdministratorController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/administrator
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-03 15:03:26 Error: [MissingControllerException] Controller class AdministratorController could not be found.
+Exception Attributes: array (
+  'class' => 'AdministratorController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/administrator
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-03 15:03:28 Error: [MissingControllerException] Controller class AdministratorController could not be found.
+Exception Attributes: array (
+  'class' => 'AdministratorController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/administrator
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-03 15:03:32 Error: [MissingControllerException] Controller class AdministratorController could not be found.
+Exception Attributes: array (
+  'class' => 'AdministratorController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/administrator/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
