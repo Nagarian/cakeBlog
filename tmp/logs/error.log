@@ -175,3 +175,15 @@ Stack Trace:
 #6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
 #7 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2014-05-02 08:59:04 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Posts\detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Posts\\detail.ctp',
+)
+Request URL: /cakephp/posts/detail/1
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
