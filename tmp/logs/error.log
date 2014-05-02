@@ -115,3 +115,63 @@ Stack Trace:
 #1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
 #2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-05-02 08:17:18 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Posts\\index.ctp',
+)
+Request URL: /cakephp/posts/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-02 08:17:22 Error: [MissingActionException] Action PostsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'admin',
+)
+Request URL: /cakephp/posts/admin/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 08:17:27 Error: [MissingActionException] Action PostsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'admin',
+)
+Request URL: /cakephp/posts/admin
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 08:30:14 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 08:34:33 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Pages\3.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Pages\\3.ctp',
+)
+Request URL: /cakephp/pages/3
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName('3')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render('3', NULL)
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PagesController.php(69): Controller->render('3')
+#3 [internal function]: PagesController->display('3')
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

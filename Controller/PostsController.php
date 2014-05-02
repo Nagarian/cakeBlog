@@ -27,6 +27,32 @@ class PostsController extends AppController {
 	}
 
 /**
+ * detail method
+ *
+ * @return void
+ */
+	public function detail($id = null) {
+		if (!$id) {
+            throw new NotFoundException(__('Invalid post'));
+        }
+
+        $post = $this->Post->findById($id);
+        if (!$post) {
+            throw new NotFoundException(__('Invalid post'));
+        }
+        $this->set('post', $post);
+	}
+/**
+ * admin method
+ *
+ * @return void
+ */
+	public function admin() {
+		$this->Post->recursive = 0;
+		$this->set('posts', $this->Paginator->paginate());
+	}
+
+/**
  * view method
  *
  * @throws NotFoundException
