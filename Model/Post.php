@@ -13,6 +13,11 @@ class Post extends AppModel {
  */
 	public $displayField = 'title';
 
+	public $actsAs = array(
+		'Containable',
+		'Comment.Commentable'
+	);
+
 /**
  * Validation rules
  *

@@ -107,3 +107,6 @@ CakeLog::config('error', array(
 ));
 CakePlugin::load('Composer', array('bootstrap' => true));
 CakePlugin::load('Migrations');
+CakePlugin::loadAll(array(
+        'Comment' => array('bootstrap' => true)
+      ));
