@@ -13,8 +13,29 @@
 <?php unset($post); ?>
 <div id='commentaires'>
 
-<?php foreach ($commentaires as $commentaire): ?>
+	<!--Ajouter un commentaire -->
+	<div class="posts form">
+	<?php echo $this->Form->create('Post'); ?>
+		<fieldset>
+			<legend><?php echo __('Add Post'); ?></legend>
+		<?php
+			echo $this->Form->input('username'); //id username content 
+			echo $this->Form->input('content');
+		?>
+		</fieldset>
+	<?php echo $this->Form->end(__('Submit')); ?>
+	</div>
 
+
+
+
+	<?php foreach ($commentaires as $commentaire): ?>
+		<div id='comment'>
+			<dl class="dl-horizontal">
+  			<dt><?php echo $commentaire[''][''];?></dt>
+  			<dd><?php echo $commentaire[''][''];?></dd>
+		</div>
+	<?php endforeach; ?>
 
 </div>
 
