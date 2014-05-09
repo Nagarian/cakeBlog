@@ -259,3 +259,258 @@ Request URL: /cakephp/webroot/img/background.png
 Stack Trace:
 #0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-05-09 15:37:21 Error: [NotFoundException] Invalid post
+Request URL: /posts/detail/
+Stack Trace:
+#0 [internal function]: PostsController->detail()
+#1 /var/www/PHP/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-09 15:41:09 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:41:09 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:41:59 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:41:59 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:42:00 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:42:00 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:42:02 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:42:02 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:42:02 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
+2014-05-09 15:42:02 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:40 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:40 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:41 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:41 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:42 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:42 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:42 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:42 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:42 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:42 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:42 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:42 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:44 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:44 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:46 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:46 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /posts
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:44:47 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:44:47 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:45:00 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:45:00 Error: [FatalErrorException] Call to a member function numbers() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:46:35 Error: Fatal Error (1): Call to undefined method View::paginate() in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
+2014-05-09 15:46:35 Error: [FatalErrorException] Call to undefined method View::paginate()
+Request URL: /
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/PHP/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/PHP/ca...', 3, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/PHP/ca...', 3, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-09 15:54:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/style_details.css
+Stack Trace:
+#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-09 15:57:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/style_details.css
+Stack Trace:
+#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-09 15:57:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/style_details.css
+Stack Trace:
+#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-09 15:58:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/style_details.css
+Stack Trace:
+#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
