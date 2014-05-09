@@ -44,7 +44,18 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<header>
 		
 	</header>
-	<div id="container">
+	<div class="navbar navbar-inverse">
+      <div class="container">
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	<div class="container">
 		<!-- <div id="header">
 			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
 		</div> -->

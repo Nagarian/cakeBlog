@@ -1,6 +1,0 @@
-<<<<<<< HEAD:tmp/cache/models/myapp_cake_model_default_cakephp_d_b_posts
-1399646539
-=======
-1399645478
->>>>>>> c8cec233ec359df810c7fe21fc8191d36bc315cd:tmp/cache/models/myapp_cake_model_default_cakephpdb_posts
-a:5:{s:2:"id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:10;s:3:"key";s:7:"primary";}s:5:"title";a:6:{s:4:"type";s:6:"string";s:4:"null";b:1;s:7:"default";N;s:6:"length";i:50;s:7:"collate";s:17:"latin1_swedish_ci";s:7:"charset";s:6:"latin1";}s:4:"body";a:6:{s:4:"type";s:4:"text";s:4:"null";b:1;s:7:"default";N;s:6:"length";N;s:7:"collate";s:17:"latin1_swedish_ci";s:7:"charset";s:6:"latin1";}s:7:"created";a:4:{s:4:"type";s:8:"datetime";s:4:"null";b:1;s:7:"default";N;s:6:"length";N;}s:8:"modified";a:4:{s:4:"type";s:8:"datetime";s:4:"null";b:1;s:7:"default";N;s:6:"length";N;}}
