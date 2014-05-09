@@ -32,6 +32,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 		// echo $this->Html->css('cake.generic');
 		echo $this->Html->script('bootstrap');
+		echo $this->Html->css('style');
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('bootstrap-theme.min');
 		echo $this->fetch('meta');
@@ -40,6 +41,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	?>
 </head>
 <body>
+	<header>
+		
+	</header>
 	<div id="container">
 		<!-- <div id="header">
 			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>

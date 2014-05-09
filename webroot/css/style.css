@@ -1,4 +1,14 @@
+body {
+	background: url(../img/background.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
 #container {
 	width: 1080px;
 	margin: 0 auto;
+	background-color: rgba(207, 183, 107, 0.8);
+	border-radius: 8px;
+	padding: 10px;
 }
