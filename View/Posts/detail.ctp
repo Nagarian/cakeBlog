@@ -1,6 +1,6 @@
 <?php echo $this->Html->css('styles_details'); ?>
 
-<div id='article'>
+<div id='article' class="MyContainer">
 	<div id='entete'>
 	    <h1><?php echo $post['Post']['title'] ?></h1>
 	    <p id='right'><?php echo $post['Post']['created']; ?></p>
@@ -10,7 +10,7 @@
    		<?php echo $post['Post']['body']; ?>
     </div>
 </div>
-<div id='commentaires'>
+<div id='commentaires' class="MyContainer">
 
 	<!--Ajouter un commentaire 
 	<div class="posts form">
