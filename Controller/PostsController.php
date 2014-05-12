@@ -15,10 +15,10 @@ class PostsController extends AppController {
  * @var array
  */
 	public $components = array('Paginator', 'Session');
-	// public $actsAs = array(
-		// 'Containable',
-		// 'Comment.Commentable'
-	// );
+	public $actsAs = array(
+		'Containable',
+		'Comment.Commentable'
+	);
 /**
  * index method
  *
@@ -43,9 +43,8 @@ class PostsController extends AppController {
         if (!$post) {
             throw new NotFoundException(__('Invalid post'));
         }
-		$comments = $this->Post->findComments(); 
+		// $comments = $this->Post->findComments(); 
         $this->set('post', $post);
-		$this->set('comments', $comments);
 	}
 /**
  * admin method

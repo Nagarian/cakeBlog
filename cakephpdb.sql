@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client: localhost
--- Généré le: Lun 12 Mai 2014 à 09:17
+-- Généré le: Lun 12 Mai 2014 à 10:13
 -- Version du serveur: 5.6.12-log
 -- Version de PHP: 5.4.12
 
@@ -42,7 +42,15 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `spam` int(1) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `tutoriel_id` (`ref_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Contenu de la table `comments`
+--
+
+INSERT INTO `comments` (`id`, `username`, `mail`, `content`, `ref`, `ref_id`, `ip`, `created`, `parent_id`, `user_id`, `spam`) VALUES
+(1, 'lala', 'lala@live.fr', 'lolilolo', 'Post', 1, '127.0.0.1', '2014-05-12 10:07:34', 0, 1, 0),
+(2, 'lala', 'lol@live..fr', 'prout', 'Post', 1, '127.0.0.1', '2014-05-12 10:12:39', 0, 1, 0);
 
 -- --------------------------------------------------------
 

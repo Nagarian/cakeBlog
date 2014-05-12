@@ -10,7 +10,6 @@
    		<?php echo $post['Post']['body']; ?>
     </div>
 </div>
-<?php unset($post); ?>
 <div id='commentaires'>
 
 	<!--Ajouter un commentaire 
@@ -26,14 +25,15 @@
 	<?php echo $this->Form->end(__('Submit')); ?>
 	</div>-->
 
-	<?= $this->Comment->form($MODEL, $ID); ?>
+	<?php var_dump($post); ?>
+	<?= $this->Comment->form("Post", $post['Post']['id']); ?>
 
 
-	<?php foreach ($comments as $commentaire): ?>
+	<?php foreach ($post['Comment'] as $commentaire): ?>
 		<div id='comment'>
-			<dl class="dl-horizontal">
-  			<dt><?php echo $commentaire[''][''];?></dt>
-  			<dd><?php echo $commentaire[''][''];?></dd>
+			<dl class="dl-horizontal"></dl>
+  			<dt><?php echo $commentaire['username'];?></dt>
+  			<dd><?php echo $commentaire['content'];?></dd>
 		</div>
 	<?php endforeach; ?>
 
