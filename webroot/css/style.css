@@ -1,5 +1,5 @@
 body {
-	background: url(../img/background.jpg) no-repeat center fixed; 
+	background: url(../img/fond.png) no-repeat center fixed; 
 	-webkit-background-size: cover; /* pour Chrome et Safari */
 	-moz-background-size: cover; /* pour Firefox */
 	-o-background-size: cover; /* pour Opera */
@@ -8,7 +8,7 @@ body {
 #container {
 	width: 1080px;
 	margin: 0 auto;
-	background-color: rgba(207, 183, 107, 0.8);
+	background-color: rgba(212, 212, 210, 0.8);
 	border-radius: 8px;
 	padding: 10px;
 }
