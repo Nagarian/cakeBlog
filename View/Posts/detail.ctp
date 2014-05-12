@@ -13,7 +13,7 @@
 <?php unset($post); ?>
 <div id='commentaires'>
 
-	<!--Ajouter un commentaire -->
+	<!--Ajouter un commentaire 
 	<div class="posts form">
 	<?php echo $this->Form->create('Post'); ?>
 		<fieldset>
@@ -24,12 +24,12 @@
 		?>
 		</fieldset>
 	<?php echo $this->Form->end(__('Submit')); ?>
-	</div>
+	</div>-->
+
+	<?= $this->Comment->form($MODEL, $ID); ?>
 
 
-
-
-	<?php foreach ($commentaires as $commentaire): ?>
+	<?php foreach ($comments as $commentaire): ?>
 		<div id='comment'>
 			<dl class="dl-horizontal">
   			<dt><?php echo $commentaire[''][''];?></dt>

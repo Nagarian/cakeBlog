@@ -1,539 +1,224 @@
-2014-04-03 12:07:56 Error: [MissingControllerException] Controller class CakephpController could not be found.
+2014-05-12 08:27:51 Error: [MissingControllerException] Controller class ImgController could not be found.
 Exception Attributes: array (
-  'class' => 'CakephpController',
+  'class' => 'ImgController',
   'plugin' => NULL,
 )
-Request URL: /cakephp/index.php/cakephp/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 E:\Skydrive\Documents\Project\www\cakephp\index.php(41): require('E:\Skydrive\Doc...')
-#2 {main}
-2014-04-03 12:15:48 Error: [MissingActionException] Action CakephpController::index() could not be found.
-Exception Attributes: array (
-  'controller' => 'CakephpController',
-  'action' => 'index',
-)
-Request URL: /cakephp/index.php/cakephp/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
-#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 E:\Skydrive\Documents\Project\www\cakephp\index.php(41): require('E:\Skydrive\Doc...')
-#4 {main}
-2014-04-03 12:16:11 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Cakephp\index.ctp" is missing.
-Exception Attributes: array (
-  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Cakephp\\index.ctp',
-)
-Request URL: /cakephp/index.php/cakephp/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
-#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
-#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
-#4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 E:\Skydrive\Documents\Project\www\cakephp\index.php(41): require('E:\Skydrive\Doc...')
-#6 {main}
-2014-04-03 12:16:52 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Cakephp\index.ctp" is missing.
-Exception Attributes: array (
-  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Cakephp\\index.ctp',
-)
-Request URL: /cakephp/index.php/cakephp/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
-#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
-#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
-#4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 E:\Skydrive\Documents\Project\www\cakephp\index.php(41): require('E:\Skydrive\Doc...')
-#6 {main}
-2014-04-03 13:53:56 Error: [MissingActionException] Action AppController::index() could not be found.
-Exception Attributes: array (
-  'controller' => 'AppController',
-  'action' => 'index',
-)
-Request URL: /cakephp/app/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
-#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-04-03 15:03:01 Error: [MissingControllerException] Controller class AdministratorController could not be found.
-Exception Attributes: array (
-  'class' => 'AdministratorController',
-  'plugin' => NULL,
-)
-Request URL: /cakephp/administrator
+Request URL: /cakephp/img/fond.png
 Stack Trace:
 #0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-04-03 15:03:26 Error: [MissingControllerException] Controller class AdministratorController could not be found.
+2014-05-12 08:32:11 Error: [MissingControllerException] Controller class ImgController could not be found.
 Exception Attributes: array (
-  'class' => 'AdministratorController',
+  'class' => 'ImgController',
   'plugin' => NULL,
 )
-Request URL: /cakephp/administrator
+Request URL: /cakephp/img/fond.png
 Stack Trace:
 #0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2014-04-03 15:03:28 Error: [MissingControllerException] Controller class AdministratorController could not be found.
+2014-05-12 08:39:08 Error: [MissingTableException] Table users for model User was not found in datasource default.
 Exception Attributes: array (
-  'class' => 'AdministratorController',
-  'plugin' => NULL,
-)
-Request URL: /cakephp/administrator
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-04-03 15:03:32 Error: [MissingControllerException] Controller class AdministratorController could not be found.
-Exception Attributes: array (
-  'class' => 'AdministratorController',
-  'plugin' => NULL,
-)
-Request URL: /cakephp/administrator/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-02 07:01:03 Error: [MissingActionException] Action AppController::index() could not be found.
-Exception Attributes: array (
-  'controller' => 'AppController',
-  'action' => 'index',
-)
-Request URL: /cakephp/app/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
-#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-05-02 07:34:14 Error: [MissingActionException] Action AppController::index() could not be found.
-Exception Attributes: array (
-  'controller' => 'AppController',
-  'action' => 'index',
-)
-Request URL: /cakephp/app/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
-#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-05-02 08:17:18 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Posts\index.ctp" is missing.
-Exception Attributes: array (
-  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Posts\\index.ctp',
-)
-Request URL: /cakephp/posts/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
-#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
-#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
-#4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2014-05-02 08:17:22 Error: [MissingActionException] Action PostsController::admin() could not be found.
-Exception Attributes: array (
-  'controller' => 'PostsController',
-  'action' => 'admin',
-)
-Request URL: /cakephp/posts/admin/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
-#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-05-02 08:17:27 Error: [MissingActionException] Action PostsController::admin() could not be found.
-Exception Attributes: array (
-  'controller' => 'PostsController',
-  'action' => 'admin',
-)
-Request URL: /cakephp/posts/admin
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
-#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-05-02 08:30:14 Error: [MissingActionException] Action AppController::index() could not be found.
-Exception Attributes: array (
-  'controller' => 'AppController',
-  'action' => 'index',
-)
-Request URL: /cakephp/app/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
-#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-05-02 08:34:33 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Pages\3.ctp" is missing.
-Exception Attributes: array (
-  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Pages\\3.ctp',
-)
-Request URL: /cakephp/pages/3
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName('3')
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render('3', NULL)
-#2 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PagesController.php(69): Controller->render('3')
-#3 [internal function]: PagesController->display('3')
-#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#7 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#8 {main}
-2014-05-02 08:59:04 Error: [MissingViewException] View file "E:\Skydrive\Documents\Project\www\cakephp\app\View\Posts\detail.ctp" is missing.
-Exception Attributes: array (
-  'file' => 'E:\\Skydrive\\Documents\\Project\\www\\cakephp\\app\\View\\Posts\\detail.ctp',
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
 )
 Request URL: /cakephp/posts/detail/1
 Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
-#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
-#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
-#4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2014-05-02 09:07:53 Error: [MissingControllerException] Controller class AddController could not be found.
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('users')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Comment), Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\Plugin\Comment\Model\Comment.php(92): Model->find('all', Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\app\Plugin\Comment\Model\Behavior\CommentableBehavior.php(22): Comment->findRelated('Post', false, Array)
+#6 [internal function]: CommentableBehavior->findComments(Object(Post))
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\BehaviorCollection.php(239): call_user_func_array(Array, Array)
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(795): BehaviorCollection->dispatchMethod(Object(Post), 'findComments', Array)
+#9 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(43): Model->__call('findComments', Array)
+#10 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(43): Post->findComments()
+#11 [internal function]: PostsController->detail('1')
+#12 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#13 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#15 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-05-12 08:42:11 Error: [MissingTableException] Table users for model User was not found in datasource default.
 Exception Attributes: array (
-  'class' => 'AddController',
-  'plugin' => NULL,
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
 )
-Request URL: /cakephp/add/
+Request URL: /cakephp/posts/detail/1
 Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-02 09:08:17 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('users')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Comment), Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\Plugin\Comment\Model\Comment.php(92): Model->find('all', Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\app\Plugin\Comment\Model\Behavior\CommentableBehavior.php(22): Comment->findRelated('Post', false, Array)
+#6 [internal function]: CommentableBehavior->findComments(Object(Post))
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\BehaviorCollection.php(239): call_user_func_array(Array, Array)
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(795): BehaviorCollection->dispatchMethod(Object(Post), 'findComments', Array)
+#9 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(46): Model->__call('findComments', Array)
+#10 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(46): Post->findComments()
+#11 [internal function]: PostsController->detail('1')
+#12 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#13 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#15 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-05-12 08:43:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.mail' in 'field list'
+Request URL: /cakephp/posts/detail/1
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Comment...', Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Comment...', false)
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Comment), Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#6 E:\Skydrive\Documents\Project\www\cakephp\app\Plugin\Comment\Model\Comment.php(92): Model->find('all', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\app\Plugin\Comment\Model\Behavior\CommentableBehavior.php(22): Comment->findRelated('Post', false, Array)
+#8 [internal function]: CommentableBehavior->findComments(Object(Post))
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\BehaviorCollection.php(239): call_user_func_array(Array, Array)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(795): BehaviorCollection->dispatchMethod(Object(Post), 'findComments', Array)
+#11 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(46): Model->__call('findComments', Array)
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(46): Post->findComments()
+#13 [internal function]: PostsController->detail('1')
+#14 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#15 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#16 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#17 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-05-12 08:44:33 Error: [MissingHelperException] Helper class CommentHelper could not be found.
 Exception Attributes: array (
-  'class' => 'AdminController',
-  'plugin' => NULL,
+  'class' => 'CommentHelper',
+  'plugin' => false,
 )
-Request URL: /cakephp/admin
+Request URL: /cakephp/posts/detail/1
 Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-02 09:08:20 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Comment')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(824): HelperCollection->__isset('Comment')
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\View\Posts\detail.ctp(29): View->__get('Comment')
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(466): View->_render('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-12 08:45:29 Error: [MissingHelperException] Helper class CommentHelper could not be found.
 Exception Attributes: array (
-  'class' => 'AdminController',
-  'plugin' => NULL,
+  'class' => 'CommentHelper',
+  'plugin' => false,
 )
-Request URL: /cakephp/admin/
+Request URL: /cakephp/posts/detail/1
 Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 12:48:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Comment')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(824): HelperCollection->__isset('Comment')
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\View\Posts\detail.ctp(29): View->__get('Comment')
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(466): View->_render('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-12 08:46:00 Error: [MissingHelperException] Helper class CommentHelper could not be found.
 Exception Attributes: array (
-  'class' => 'ImgController',
-  'plugin' => NULL,
+  'class' => 'CommentHelper',
+  'plugin' => false,
 )
-Request URL: /cakephp/img/background.png
+Request URL: /cakephp/posts/detail/1
 Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 12:49:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Comment')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(824): HelperCollection->__isset('Comment')
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\View\Posts\detail.ctp(29): View->__get('Comment')
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(466): View->_render('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-12 08:47:24 Error: [MissingHelperException] Helper class CommentHelper could not be found.
 Exception Attributes: array (
-  'class' => 'ImgController',
-  'plugin' => NULL,
+  'class' => 'CommentHelper',
+  'plugin' => false,
 )
-Request URL: /cakephp/img/background.png
+Request URL: /cakephp/posts/detail/1
 Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 12:49:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Comment')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(824): HelperCollection->__isset('Comment')
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\View\Posts\detail.ctp(29): View->__get('Comment')
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(466): View->_render('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-12 08:53:02 Error: Fatal Error (1): Call to a member function user() on a non-object in [E:\Skydrive\Documents\Project\www\cakephp\app\Plugin\Comment\Controller\CommentsController.php, line 17]
+2014-05-12 08:53:02 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /cakephp/comment/comments/add
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 17, Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Skydrive\Doc...', 17, Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 08:59:55 Error: Fatal Error (1): Call to a member function user() on a non-object in [E:\Skydrive\Documents\Project\www\cakephp\app\Plugin\Comment\Controller\CommentsController.php, line 17]
+2014-05-12 08:59:55 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /cakephp/comment/comments/add
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 17, Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Skydrive\Doc...', 17, Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 09:00:25 Error: Fatal Error (1): Call to a member function allow() on a non-object in [E:\Skydrive\Documents\Project\www\cakephp\app\Controller\UsersController.php, line 8]
+2014-05-12 09:00:25 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /cakephp/users/add
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 8, Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Skydrive\Doc...', 8, Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 09:00:29 Error: Fatal Error (1): Call to a member function allow() on a non-object in [E:\Skydrive\Documents\Project\www\cakephp\app\Controller\UsersController.php, line 8]
+2014-05-12 09:00:29 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /cakephp/users/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 8, Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Skydrive\Doc...', 8, Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-12 09:02:03 Error: [MissingActionException] Action UsersController::login() could not be found.
 Exception Attributes: array (
-  'class' => 'ImgController',
-  'plugin' => NULL,
+  'controller' => 'UsersController',
+  'action' => 'login',
 )
-Request URL: /cakephp/img/background.png
+Request URL: /cakephp/users/login
 Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 12:49:29 Error: [MissingControllerException] Controller class WebrrotimgController could not be found.
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-12 09:02:12 Error: [MissingActionException] Action UsersController::login() could not be found.
 Exception Attributes: array (
-  'class' => 'WebrrotimgController',
-  'plugin' => NULL,
+  'controller' => 'UsersController',
+  'action' => 'login',
 )
-Request URL: /cakephp/webrrotimg/background.png
+Request URL: /cakephp/users/login
 Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 12:49:37 Error: [MissingControllerException] Controller class WebrootController could not be found.
-Exception Attributes: array (
-  'class' => 'WebrootController',
-  'plugin' => NULL,
-)
-Request URL: /cakephp/webroot/img/background.png
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 15:37:21 Error: [NotFoundException] Invalid post
-Request URL: /posts/detail/
-Stack Trace:
-#0 [internal function]: PostsController->detail()
-#1 /var/www/PHP/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#3 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
-#4 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2014-05-09 15:41:09 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:41:09 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:41:59 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:41:59 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:42:00 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:42:00 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:42:01 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:42:01 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:42:02 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:42:02 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:42:02 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 4]
-2014-05-09 15:42:02 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:40 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:40 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:41 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:41 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:42 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:42 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:42 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:42 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:42 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:42 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:42 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:42 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:44 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:44 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts/
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:46 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:46 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /posts
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:44:47 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:44:47 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:45:00 Error: Fatal Error (1): Call to a member function numbers() on a non-object in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:45:00 Error: [FatalErrorException] Call to a member function numbers() on a non-object
-Request URL: /
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:46:35 Error: Fatal Error (1): Call to undefined method View::paginate() in [/var/www/PHP/cakephp/app/View/Posts/index.ctp, line 3]
-2014-05-09 15:46:35 Error: [FatalErrorException] Call to undefined method View::paginate()
-Request URL: /
-Stack Trace:
-#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/PHP/ca...', 3)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/PHP/ca...', 3, Array)
-#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/PHP/ca...', 3, Array)
-#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-05-09 15:54:21 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/style_details.css
-Stack Trace:
-#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 15:57:15 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/style_details.css
-Stack Trace:
-#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 15:57:30 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/style_details.css
-Stack Trace:
-#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 15:58:04 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/style_details.css
-Stack Trace:
-#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2014-05-09 22:02:44 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
-Exception Attributes: array (
-  'class' => 'Mysql',
-  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
-  'enabled' => true,
-)
-Request URL: /cakephp/
-Stack Trace:
-#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
-#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
-#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
-#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
-#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('posts')
-#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2902): Model->getDataSource()
-#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
-#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
-#8 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(26): PaginatorComponent->paginate()
-#9 [internal function]: PostsController->index()
-#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
-#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#12 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
-#13 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#14 {main}
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
