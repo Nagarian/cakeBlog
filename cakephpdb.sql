@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.14
+-- version 4.0.4
 -- http://www.phpmyadmin.net
 --
--- Client :  localhost
--- Généré le :  Lun 12 Mai 2014 à 10:31
--- Version du serveur :  5.5.37-0ubuntu0.14.04.1
--- Version de PHP :  5.5.9-1ubuntu4
+-- Client: localhost
+-- Généré le: Lun 12 Mai 2014 à 09:17
+-- Version du serveur: 5.6.12-log
+-- Version de PHP: 5.4.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,8 +17,32 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de données :  `cakephpdb`
+-- Base de données: `cakephpdb`
 --
+CREATE DATABASE IF NOT EXISTS `cakephpdb` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `cakephpdb`;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `comments`
+--
+
+CREATE TABLE IF NOT EXISTS `comments` (
+  `id` int(4) NOT NULL AUTO_INCREMENT,
+  `username` varchar(60) NOT NULL,
+  `mail` varchar(255) NOT NULL,
+  `content` text NOT NULL,
+  `ref` varchar(60) DEFAULT 'tutoriel',
+  `ref_id` int(4) NOT NULL,
+  `ip` varchar(50) NOT NULL,
+  `created` datetime NOT NULL,
+  `parent_id` int(9) NOT NULL,
+  `user_id` int(9) NOT NULL,
+  `spam` int(1) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `tutoriel_id` (`ref_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -27,7 +51,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE IF NOT EXISTS `posts` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id` int(10) NOT NULL AUTO_INCREMENT,
   `title` varchar(50) DEFAULT NULL,
   `body` text,
   `created` datetime DEFAULT NULL,
@@ -62,16 +86,41 @@ CREATE TABLE IF NOT EXISTS `schema_migrations` (
   `type` varchar(50) NOT NULL,
   `created` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
 -- Contenu de la table `schema_migrations`
 --
 
 INSERT INTO `schema_migrations` (`id`, `class`, `type`, `created`) VALUES
-(1, 'InitMigrations', 'Migrations', '2014-05-09 16:43:13'),
-(2, 'ConvertVersionToClassNames', 'Migrations', '2014-05-09 16:43:14'),
-(3, 'IncreaseClassNameLength', 'Migrations', '2014-05-09 16:46:38');
+(1, 'InitMigrations', 'Migrations', '2014-05-12 11:25:25'),
+(2, 'ConvertVersionToClassNames', 'Migrations', '2014-05-12 11:25:25'),
+(3, 'IncreaseClassNameLength', 'Migrations', '2014-05-12 11:25:27'),
+(4, 'CakeBlogDB', 'app', '2014-05-12 11:25:28');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) DEFAULT NULL,
+  `password` varchar(50) DEFAULT NULL,
+  `mail` varchar(150) NOT NULL,
+  `role` varchar(20) DEFAULT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Contenu de la table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `password`, `mail`, `role`, `created`, `modified`) VALUES
+(1, 'lala', '5b8752af5434213b76b937b13eb4c4ee1c53ad17', '', 'auteur', '2014-05-12 09:14:59', '2014-05-12 09:14:59');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
