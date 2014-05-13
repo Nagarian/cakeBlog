@@ -1,7 +1,7 @@
 <div class="MyContainer">
   <div class="blog-header">
 	<h1 class="blog-title">Le blog du saussisson !</h1>
-	<p class="lead blog-description">Par ce que nous on aime ce qui est bon ! BIAAAAAAAAAAATCH !</p>
+	<p class="lead blog-description">Par ce que nous on aime ce qui est bon !</p>
   </div>
   <div class="row">
 
@@ -18,10 +18,28 @@
 			<p><?php echo $post['Post']['body']; ?></p>
 		</div>
 
-		<?php endforeach; ?>
+		<?php endforeach;?>
+		
 		<ul class="pager">
-			<li><a href="#">Previous</a></li>
-			<li><a href="#">Next</a></li>
+			<li class="previous">
+			<?php echo $this->Paginator->prev(
+				  ' << ',
+				  array(),
+				  null,
+				  array('class' => 'prev disabled')
+				);?>	
+			</li>
+			<li>
+			<?php echo $this->Paginator->numbers();?>
+			</li>
+			<li class="next">
+				<?php	echo $this->Paginator->next(
+				  ' >> ',
+				  array(),
+				  null,
+				  array('class' => 'prev disabled')
+				);?>
+			</li>
 		</ul>
 	</div>
 		<?php unset($post); ?>
