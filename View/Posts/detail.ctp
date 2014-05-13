@@ -12,22 +12,9 @@
 </div>
 <div id='commentaires' class="MyContainer">
 
-	<!--Ajouter un commentaire 
-	<div class="posts form">
-	<?php echo $this->Form->create('Post'); ?>
-		<fieldset>
-			<legend><?php echo __('Add Post'); ?></legend>
-		<?php
-			echo $this->Form->input('username'); //id username content 
-			echo $this->Form->input('content');
-		?>
-		</fieldset>
-	<?php echo $this->Form->end(__('Submit')); ?>
-	</div>-->
-
-	<?php var_dump($post); ?>
-	<?= $this->Comment->form("Post", $post['Post']['id']); ?>
-
+	<div id='formulaire_commentaire'>
+		<?= $this->Comment->form("Post", $post['Post']['id']); ?>
+	</div>
 
 	<?php foreach ($post['Comment'] as $commentaire): ?>
 		<div id='comment'>
