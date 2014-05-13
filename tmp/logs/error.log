@@ -478,3 +478,12 @@ Request URL: /shoxx-website.com
 Stack Trace:
 #0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-05-13 12:24:51 Error: [NotFoundException] Invalid post
+Request URL: /posts/detail/index.php
+Stack Trace:
+#0 [internal function]: PostsController->detail('index.php')
+#1 /var/www/PHP/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
