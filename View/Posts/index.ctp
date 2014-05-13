@@ -1,22 +1,57 @@
-<div class="MyContainer">
-  <div class="blog-header">
-	<h1 class="blog-title">Le blog du saussisson !</h1>
-	<p class="lead blog-description">Par ce que nous on aime ce qui est bon !</p>
-  </div>
+<div id="masthead">  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>Blog du saussisson
+          <p class="lead">C'est bon !</p>
+        </h1>
+      </div>
+      <div class="col-md-5">
+        <div class="well well-lg"> 
+          <div class="row">
+            <div class="col-sm-12">
+              Ad Space			
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div><!-- /cont -->
+</div>
+<div class="container">
   <div class="row">
-
-	<div class="blog-main">
-
-	  <div class="col-sm-7 blog-main">
+    
+    <div class="col-md-12"> 
+      
+      <div class="panel">
+        <div class="panel-body">
+        
+          
+          <!--/stories-->
 
 		<?php foreach ($posts as $post): ?>
-		<div class="blog-post">
-			<h2 class="blog-post-title"><?php echo $this->Html->link($post['Post']['title'],
+		<div class="row">    
+            <br>
+            <div class="col-md-2 col-sm-3 text-center">
+              <a class="story-img" href="#"><img src="//placehold.it/100" style="width:100px;height:100px" class="img-circle"></a>
+            </div>
+            <div class="col-md-10 col-sm-9">
+		<div class="col-md-10 col-sm-9">
+              <h3><?php echo $this->Html->link($post['Post']['title'],
 	array('controller' => 'posts', 'action' => 'detail', $post['Post']['id'])); ?>
-			</h2>
-			<p class="blog-post-meta"><?php echo $post['Post']['created']; ?></p>
-			<p><?php echo $post['Post']['body']; ?></p>
-		</div>
+			</h3>
+			<div class="row">
+                <div class="col-xs-9">
+					<p><?php echo $post['Post']['body']; ?></p>
+					<ul class="list-inline"><li><a href="#"><?php echo $post['Post']['created']; ?></a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 4 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 34 Shares</a></li></ul>
+				</div>
+                <div class="col-xs-3"></div>
+              </div>
+              <br><br>
+            </div>
+          </div>
+		 </div>
+          <hr>
 
 		<?php endforeach;?>
 		
@@ -43,37 +78,6 @@
 		</ul>
 	</div>
 		<?php unset($post); ?>
-	<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          </div>
-          <div class="sidebar-module">
-            <h4>Archives</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-              <li><a href="#">March 2013</a></li>
-              <li><a href="#">February 2013</a></li>
-            </ol>
-          </div>
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
-          </div>
-        </div><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
 
