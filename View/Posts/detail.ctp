@@ -11,7 +11,7 @@
     </div>
 </div>
 <div id='commentaires' class="MyContainer">
-
+<?php var_dump($post); ?>
 	<div id='formulaire_commentaire'>
 		<?= $this->Comment->form("Post", $post['Post']['id']); ?>
 	</div>

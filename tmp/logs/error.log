@@ -487,3 +487,42 @@ Stack Trace:
 #3 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
 #4 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-05-13 14:30:30 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('posts')
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(31): PaginatorComponent->paginate()
+#9 [internal function]: PostsController->index()
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#13 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-13 14:31:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'countRelated' at line 1
+Request URL: /cakephp/posts/detail/1
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('countRelated', Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('countRelated', Array, Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('countRelated', Array, Array)
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(800): DboSource->query('countRelated', Array, Object(Post))
+#5 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(48): Model->__call('countRelated', Array)
+#6 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(48): Post->countRelated('Post', '1')
+#7 [internal function]: PostsController->detail('1')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
