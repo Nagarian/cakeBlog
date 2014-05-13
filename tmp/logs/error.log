@@ -446,3 +446,35 @@ Stack Trace:
 #3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest), Object(CakeResponse))
 #4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-05-13 11:43:24 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /posts
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHP/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(3499): Model->setSource('posts')
+#5 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/PHP/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /var/www/PHP/cakephp/app/Controller/PostsController.php(29): PaginatorComponent->paginate()
+#9 [internal function]: PostsController->index()
+#10 /var/www/PHP/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-13 12:06:41 Error: [MissingControllerException] Controller class Shoxx-website.comController could not be found.
+Exception Attributes: array (
+  'class' => 'Shoxx-website.comController',
+  'plugin' => NULL,
+)
+Request URL: /shoxx-website.com
+Stack Trace:
+#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
