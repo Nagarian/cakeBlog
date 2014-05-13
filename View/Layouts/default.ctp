@@ -32,30 +32,54 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 		// echo $this->Html->css('cake.generic');
 		echo $this->Html->script('bootstrap');
-		echo $this->Html->css('style');
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('bootstrap-theme.min');
+		echo $this->Html->css('style');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
 </head>
 <body>
-	<header>
-		
-	</header>
-	<div class="navbar navbar-inverse">
-      <div class="container">
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+	<header class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.php" class="navbar-brand">Home</a>
     </div>
-	<div class="container">
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#">Category</a>
+        </li>
+        <li>
+          <a href="#">Category</a>
+        </li>
+        <li>
+          <a href="#">Category</a>
+        </li>
+        <li>
+          <a href="#">Category</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-right navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
+          <ul class="dropdown-menu" style="padding:12px;">
+            <form class="form-inline">
+              <button type="submit" class="btn btn-default pull-right"><i class="glyphicon glyphicon-search"></i></button><input type="text" class="form-control pull-left" placeholder="Search">
+            </form>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
 		<!-- <div id="header">
 			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
 		</div> -->
@@ -65,15 +89,21 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<!-- <div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
-		</div> -->
 	</div>
 	<!--<?php echo $this->element('sql_dump'); ?>-->
+<hr>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+      </div>
+      <div class="col-sm-6">
+          <p class="pull-right">Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a></p>      
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
