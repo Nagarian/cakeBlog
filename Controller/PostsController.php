@@ -26,6 +26,8 @@ class PostsController extends AppController {
  */
 	public function index() {
 		$this->Post->recursive = 0;
+		$this->Paginator->settings = array(
+        	'limit' => 5);
 		$this->set('posts', $this->Paginator->paginate());
 	}
 
