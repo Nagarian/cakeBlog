@@ -1,5 +1,6 @@
 body {
-	background: url(../img/fond.png) no-repeat center fixed; 
+	/*background: url(../img/fond.png) no-repeat center fixed; */
+	background-color: #F8F8FF;
 	-webkit-background-size: cover; /* pour Chrome et Safari */
 	-moz-background-size: cover; /* pour Firefox */
 	-o-background-size: cover; /* pour Opera */
