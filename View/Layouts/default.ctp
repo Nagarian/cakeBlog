@@ -17,13 +17,14 @@
  */
 
 $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$sitedesc = __d('cake_dev', 'SaFrOl ');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
+		<?php echo $sitedesc ?>:
 		<?php echo $title_for_layout; ?>
 	</title>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -50,21 +51,38 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.php" class="navbar-brand">Home</a>
+      <a href="/cakephp/index.php" class="navbar-brand">Home</a>
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li>
-          <a href="#">Category</a>
+          <a href="/cakephp/posts/more">Les plus commentés</a>
         </li>
-        <li>
-          <a href="#">Category</a>
+        
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown">
+				Catégories <span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu">
+				<li>
+					<a href="/cakephp/posts/saucisson">Saucisson</a>
+				</li>
+				<li>
+					<a href="/cakephp/posts/fromage">Fromage</a>
+				</li>
+				<li>
+					<a href="/cakephp/posts/olives">Olives</a>
+				</li>
+				<li>
+					<a href="/cakephp/posts/autres">Autres</a>
+				</li>
+			</ul>
+		  </li>
+		<li>
+			<a href="/cakephp/partenaires">Partenaires</a>
         </li>
-        <li>
-          <a href="#">Category</a>
-        </li>
-        <li>
-          <a href="#">Category</a>
+		<li>
+			<a href="/cakephp/about">About</a>
         </li>
       </ul>
       <ul class="nav navbar-right navbar-nav">
