@@ -2,7 +2,7 @@
 $default = array(
 	'user'	 => array(
 		'model' => 'User',
-		'username' => 'username',
+		'username' => 'userlol',
 		'mail'	   => 'mail',
 	),
 	'order'  => 'Comment.created ASC',
