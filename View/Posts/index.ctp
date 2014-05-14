@@ -32,17 +32,17 @@
 						switch ($post['Post']['categorie']){
 							case 1:
 								echo $this->Html->link(
-								$this->Html->image("/app/webroot/img/saucisson.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
+								$this->Html->image("/img/saucisson.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
 								array('controller' => 'posts', 'action' => 'detail', $post['Post']['id']), array('escape' => false, 'class' => 'story-img'));
 								break;
 							case 2:
 								echo $this->Html->link(
-								$this->Html->image("/app/webroot/img/fromage.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
+								$this->Html->image("/img/fromage.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
 								array('controller' => 'posts', 'action' => 'detail', $post['Post']['id']), array('escape' => false, 'class' => 'story-img'));
 								break;
 							case 3:
 								echo $this->Html->link(
-								$this->Html->image("/app/webroot/img/olives.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
+								$this->Html->image("/img/olives.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
 								array('controller' => 'posts', 'action' => 'detail', $post['Post']['id']), array('escape' => false, 'class' => 'story-img'));
 								break;
 							default :

@@ -51,12 +51,12 @@ $sitedesc = __d('cake_dev', 'SaFrOl ');
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/cakephp/index.php" class="navbar-brand">Home</a>
+      <a href="/index.php" class="navbar-brand">Home</a>
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li>
-          <a href="/cakephp/posts/more">Les plus commentés</a>
+          <a href="/posts/more">Les plus commentés</a>
         </li>
         
 		<li class="dropdown">
@@ -65,24 +65,24 @@ $sitedesc = __d('cake_dev', 'SaFrOl ');
 			</a>
 			<ul class="dropdown-menu">
 				<li>
-					<a href="/cakephp/posts/saucisson">Saucisson</a>
+					<a href="/posts/saucisson">Saucisson</a>
 				</li>
 				<li>
-					<a href="/cakephp/posts/fromage">Fromage</a>
+					<a href="/posts/fromage">Fromage</a>
 				</li>
 				<li>
-					<a href="/cakephp/posts/olives">Olives</a>
+					<a href="/posts/olives">Olives</a>
 				</li>
 				<li>
-					<a href="/cakephp/posts/autres">Autres</a>
+					<a href="/posts/autres">Autres</a>
 				</li>
 			</ul>
 		  </li>
 		<li>
-			<a href="/cakephp/partenaires">Partenaires</a>
+			<a href="/partenaires">Partenaires</a>
         </li>
 		<li>
-			<a href="/cakephp/about">About</a>
+			<a href="/about">About</a>
         </li>
       </ul>
       <ul class="nav navbar-right navbar-nav">

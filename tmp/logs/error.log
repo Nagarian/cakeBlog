@@ -526,3 +526,497 @@ Stack Trace:
 #10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
 #11 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2014-05-14 18:35:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHP/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(3499): Model->setSource('posts')
+#5 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(1447): Model->schema()
+#7 /var/www/PHP/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(397): Model->hasField('created')
+#8 /var/www/PHP/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(Post), Array, Array)
+#9 /var/www/PHP/cakephp/app/Controller/PostsController.php(34): PaginatorComponent->paginate()
+#10 [internal function]: PostsController->index()
+#11 /var/www/PHP/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-14 18:37:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:37:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:37:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:39:11 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [/var/www/PHP/cakephp/app/Controller/CakephpController.php, line 4]
+2014-05-14 18:39:11 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /cakephp
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/PHP/ca...', 4, Array)
+#3 /var/www/PHP/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-14 18:39:16 Error: [MissingActionException] Action CakephpController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'app',
+)
+Request URL: /cakephp/app
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:39:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:39:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:39:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:40:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:40:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:40:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:40:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:40:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:40:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:41:28 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:41:28 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:41:28 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:41:51 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:41:51 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:41:51 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:45:01 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:45:02 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:45:30 Error: [MissingActionException] Action CakephpController::partenaires() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'partenaires',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:46:51 Error: [MissingControllerException] Controller class PartenairesController could not be found.
+Exception Attributes: array (
+  'class' => 'PartenairesController',
+  'plugin' => NULL,
+)
+Request URL: /partenaires
+Stack Trace:
+#0 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-14 18:47:17 Error: [MissingActionException] Action CakephpController::about() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'about',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:47:18 Error: [MissingActionException] Action CakephpController::partenaires() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'partenaires',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:47:19 Error: [MissingActionException] Action CakephpController::about() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'about',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:47:27 Error: [MissingActionException] Action CakephpController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'posts',
+)
+Request URL: /cakephp/posts/more
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:47:28 Error: [MissingActionException] Action CakephpController::about() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'about',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:47:29 Error: [MissingActionException] Action CakephpController::partenaires() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'partenaires',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:47:30 Error: [MissingActionException] Action CakephpController::about() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'about',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:49:40 Error: [MissingActionException] Action CakephpController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'posts',
+)
+Request URL: /cakephp/posts/more
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:50:11 Error: [MissingActionException] Action CakephpController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'posts',
+)
+Request URL: /cakephp/posts/more
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:51:09 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:51:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:51:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:51:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:51:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/hackdumb.png
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:51:23 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/hackdumb.png
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:51:25 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:52:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/fromage.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:52:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/olives.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-14 18:52:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/img/saucisson.jpg
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
