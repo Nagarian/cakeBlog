@@ -27,10 +27,93 @@ class PostsController extends AppController {
 	public function index() {
 		$this->Post->recursive = 0;
 		$this->Paginator->settings = array(
-        	'limit' => 5);
+        	'limit' => 5,
+			'order' => array(
+            'Post.created' => 'desc',
+			'Post.id'=>'desc'));
 		$this->set('posts', $this->Paginator->paginate());
 	}
 
+/**
+ * more method
+ *
+ * @return void
+ */
+	public function more() {
+		$this->Post->recursive = 0;
+		$this->Paginator->settings = array(
+        	'limit' => 5,
+			'order' => array(
+			'Post.comment_count' => 'desc',
+            'Post.created' => 'desc',
+			'Post.id'=>'desc'));
+		$this->set('posts', $this->Paginator->paginate());
+	}	
+
+/**
+ * saucisson method
+ *
+ * @return void
+ */
+	public function saucisson() {
+		$this->Post->recursive = 0;
+		$this->Paginator->settings = array(
+			'conditions' => array('Post.categorie' => '1'),
+        	'limit' => 5,
+			'order' => array(
+            'Post.created' => 'desc',
+			'Post.id'=>'desc'));
+		$this->set('posts', $this->Paginator->paginate());
+	}	
+
+/**
+ * fromage method
+ *
+ * @return void
+ */
+	public function fromage() {
+		$this->Post->recursive = 0;
+		$this->Paginator->settings = array(
+			'conditions' => array('Post.categorie' => '2'),
+        	'limit' => 5,
+			'order' => array(
+            'Post.created' => 'desc',
+			'Post.id'=>'desc'));
+		$this->set('posts', $this->Paginator->paginate());
+	}	
+
+/**
+ * olives method
+ *
+ * @return void
+ */
+	public function olives() {
+		$this->Post->recursive = 0;
+		$this->Paginator->settings = array(
+			'conditions' => array('Post.categorie' => '3'),
+        	'limit' => 5,
+			'order' => array(
+            'Post.created' => 'desc',
+			'Post.id'=>'desc'));
+		$this->set('posts', $this->Paginator->paginate());
+	}
+
+/**
+ * autres method
+ *
+ * @return void
+ */
+	public function autres() {
+		$this->Post->recursive = 0;
+		$this->Paginator->settings = array(
+			'conditions' => array('Post.categorie' => ''),
+        	'limit' => 5,
+			'order' => array(
+            'Post.created' => 'desc',
+			'Post.id'=>'desc'));
+		$this->set('posts', $this->Paginator->paginate());
+	}	
+	
 /**
  * detail method
  *
