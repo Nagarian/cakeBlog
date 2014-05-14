@@ -81,6 +81,7 @@ a,a:hover {
 .panel {
   border-color:transparent;
   border-radius:0;
+  box-shadow:0 20px 20px rgba(0,0,0,.05);
 }
 
 .thumbnail {
@@ -130,3 +131,19 @@ a,a:hover {
 .btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
 
       
+.titleblog{
+	border-color:transparent;
+	border-radius:0;
+	box-shadow:0 20px 20px rgba(0,0,0,.05);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	text-align:center;
+	text-shadow: 0px 0px 20px #FFFFFF;
+	position: relative;
+	background: url(../img/baniere.jpg) no-repeat center;
+	background-size: 100% ;
+}
+
+
