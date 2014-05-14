@@ -14,17 +14,25 @@ class PostsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session');
+	public $components = array('Paginator', 'Session', 'RequestHandler');
 	public $actsAs = array(
 		'Containable',
 		'Comment.Commentable'
 	);
+	public $helpers = array('Text');
 /**
  * index method
  *
  * @return void
  */
 	public function index() {
+		if ($this->RequestHandler->isRss() ) {
+			$posts = $this->Post->find(
+				'all',
+				array('limit' => 20, 'order' => 'Post.created DESC')
+			);
+			return $this->set(compact('posts'));
+		}
 		$this->Post->recursive = 0;
 		$this->Paginator->settings = array(
         	'limit' => 5,
