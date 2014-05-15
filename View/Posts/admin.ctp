@@ -30,7 +30,13 @@
 					<tr>
 						<td><?php echo h($post['Post']['id']); ?>&nbsp;</td>
 						<td><?php echo h($post['Post']['title']); ?>&nbsp;</td>
-						<td><?php echo h($post['Post']['body']); ?>&nbsp;</td>
+						<td><?php echo $this->Text->truncate(
+										$post['Post']['body'],
+										100,
+										array(
+											'ellipsis' => '...',
+											'exact' => false
+										)); ?>&nbsp;</td>
 						<td><?php echo h($post['Post']['created']); ?>&nbsp;</td>
 						<td><?php echo h($post['Post']['modified']); ?>&nbsp;</td>
 						<td class="actions">
