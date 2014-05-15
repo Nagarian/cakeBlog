@@ -1,21 +1,43 @@
-<div class="posts form">
-<?php echo $this->Form->create('Post'); ?>
-<fieldset>
-	<div id="add_infos">
-		<legend><?php echo __('Add Post'); ?></legend>
-		<div class="form-group">
-			<?php echo $this->Form->input('title',array('class'=>'form-control')); ?>
+<div id="masthead">  
+  <div class="container">
+	<a href="/cakephp/index.php">
+    <div class="row">
+      <div class="col-md-12">
+		<div class="titlepost">
+			<h1><?php echo __('Add Post'); ?></h1>
 		</div>
-		<div class="form-group">
-			<?php echo $this->Form->input('body',array('class'=>'form-control')); ?>
+      </div>
+    </div> 
+	</a>
+  </div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12"> 
+			<div class="panel">
+				<div class="panel-body">
+					<div class="row">    
+						<div class="col-md-offset-1 col-md-10">
+							<?php echo $this->Form->create('Post'); ?>
+								<fieldset>
+									<div class="form-group">
+										<?php echo $this->Form->input('title',array('class'=>'form-control')); ?>
+									</div>
+									<div class="form-group">
+										<?php echo $this->Form->input('body',array('class'=>'form-control', 'rows'=>'10')); ?>
+									</div>
+									<div class="form-group">
+										<?php 
+											$options = array(1 => 'Saucisson', 2 => 'Fromage', 3 => 'Olives');
+											echo $this->Form->input('categorie', array('class'=>'form-control', 'options' => $options,'empty' => '(choisissez)')); 
+										?>
+									</div>
+										<?php echo $this->Form->end(__('Submit')); ?>
+								</fieldset>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-			<?php echo $this->Form->end(__('Submit')); ?>
 	</div>
-</fieldset>
-
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Lister les Posts'), array('action' => 'index')); ?></li>
-	</ul>
 </div>
