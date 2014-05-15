@@ -1,8 +1,8 @@
 <div class="posts form">
 <?php echo $this->Form->create('Post'); ?>
 <fieldset>
-	<legend><?php echo __('Add Post'); ?></legend>
 	<div id="add_infos">
+		<legend><?php echo __('Add Post'); ?></legend>
 		<div class="form-group">
 			<?php echo $this->Form->input('title',array('class'=>'form-control')); ?>
 		</div>
