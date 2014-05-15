@@ -1222,3 +1222,12 @@ Stack Trace:
 #11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
 #12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2014-05-15 08:04:31 Error: [MissingControllerException] Controller class PartenaireController could not be found.
+Exception Attributes: array (
+  'class' => 'PartenaireController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/partenaire
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
