@@ -1,6 +1,6 @@
 <div id="masthead">  
   <div class="container">
-	<a href="/cakephp/index.php">
+	<a href="/index.php">
     <div class="row">
       <div class="col-md-12">
 		<div class="titleblog">
