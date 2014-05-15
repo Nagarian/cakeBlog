@@ -42,6 +42,26 @@ class PostsController extends AppController {
 		$this->set('posts', $this->Paginator->paginate());
 	}
 
+	public function search() {
+		$condition = $this->params['url']['query'];
+		
+		$this->Post->recursive = 0;
+		$this->Paginator->settings = array(
+        	'limit' => 5,
+			'order' => array(
+            'Post.created' => 'desc',
+			'Post.id'=>'desc'));
+		
+		$this->set('posts', $this->Paginator->paginate('Post', array(
+				'OR' => array(
+					'Post.title LIKE' => "%$condition%",
+					'Post.body LIKE' => "%$condition%"
+				)
+			))
+		);
+	}
+	
+	
 /**
  * more method
  *
