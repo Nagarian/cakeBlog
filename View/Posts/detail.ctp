@@ -43,7 +43,7 @@
 											'accuracy' => array('month'=>'month', 'day'=>'day', 'hour' => 'hour', 'minute' => 'minute'))); 
 										?></h5>
 								<blockquote>
-									<p><?php echo $commentaire['content'];?></p>
+									<p><?php echo htmlentities($commentaire['content']);?></p>
 								</blockquote>
 							</div>
 						</div>
