@@ -56,7 +56,7 @@ $sitedesc = __d('cake_dev', 'SaFrOl ');
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li>
-          <a href="/posts/more">Les plus commentés</a>
+			<?php echo $this->Html->link("Les plus commentés", array('controller' => 'posts', 'action' => 'more')); ?>
         </li>
         
 		<li class="dropdown">
@@ -65,24 +65,24 @@ $sitedesc = __d('cake_dev', 'SaFrOl ');
 			</a>
 			<ul class="dropdown-menu">
 				<li>
-					<a href="/posts/saucisson">Saucisson</a>
+					<?php echo $this->Html->link("Saucisson", array('controller' => 'posts', 'action' => 'saucisson')); ?>
 				</li>
 				<li>
-					<a href="/posts/fromage">Fromage</a>
+					<?php echo $this->Html->link("Fromage", array('controller' => 'posts', 'action' => 'fromage')); ?>
 				</li>
 				<li>
-					<a href="/posts/olives">Olives</a>
+					<?php echo $this->Html->link("Olives", array('controller' => 'posts', 'action' => 'olives')); ?>
 				</li>
 				<li>
-					<a href="/posts/autres">Autres</a>
+					<?php echo $this->Html->link("Autres", array('controller' => 'posts', 'action' => 'autres')); ?>
 				</li>
 			</ul>
 		  </li>
 		<li>
-			<a href="/partenaires">Partenaires</a>
+			<?php echo $this->Html->link("Partenaires", array('controller' => 'partenaires', 'action' => 'index')); ?>
         </li>
 		<li>
-			<a href="/about">About</a>
+			<?php echo $this->Html->link("About", array('controller' => 'about', 'action' => 'index')); ?>
         </li>
       </ul>
       <ul class="nav navbar-right navbar-nav">
