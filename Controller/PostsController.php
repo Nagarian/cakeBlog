@@ -166,6 +166,10 @@ class PostsController extends AppController {
  */
 	public function admin() {
 		$this->Post->recursive = 0;
+		$this->Paginator->settings = array(
+			'order' => array(
+            		'Post.created' => 'desc',
+			'Post.id'=>'desc'));
 		$this->set('posts', $this->Paginator->paginate());
 	}
 
