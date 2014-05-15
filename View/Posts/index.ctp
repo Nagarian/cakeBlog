@@ -69,7 +69,9 @@
 									),array('controller' => 'posts', 'action' => 'detail', $post['Post']['id'])); ?></p>
 								<hr>
 								<ul class="list-inline">
-									<li><?php 
+									<li>
+										<i class='glyphicon glyphicon-time'></i>
+										<?php 
 										echo $this->Time->timeAgoInWords(
 											$post['Post']['created'],
 											array('end' => '+1 year',

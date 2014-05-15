@@ -29,27 +29,10 @@
 					<br>
 					<div class="col-md-2 col-sm-3 text-center">
 						<?php 
-						switch ($post['Post']['categorie']){
-							case 1:
-								echo $this->Html->link(
-								$this->Html->image("/img/saucisson.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
-								array('controller' => 'posts', 'action' => 'detail', $post['Post']['id']), array('escape' => false, 'class' => 'story-img'));
-								break;
-							case 2:
 								echo $this->Html->link(
 								$this->Html->image("/img/fromage.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
 								array('controller' => 'posts', 'action' => 'detail', $post['Post']['id']), array('escape' => false, 'class' => 'story-img'));
 								break;
-							case 3:
-								echo $this->Html->link(
-								$this->Html->image("/img/olives.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
-								array('controller' => 'posts', 'action' => 'detail', $post['Post']['id']), array('escape' => false, 'class' => 'story-img'));
-								break;
-							default :
-								echo $this->Html->link(
-								$this->Html->image("//placehold.it/100", array("style" => "width:100px;height:100px", "class" => "img-circle")),
-								array('controller' => 'posts', 'action' => 'detail', $post['Post']['id']), array('escape' => false, 'class' => 'story-img'));
-								break;}
 						?>
 					</div>
 					<div class="col-md-10 col-sm-9">
@@ -62,7 +45,9 @@
 								<p><?php echo $this->Html->link($post['Post']['body'],array('controller' => 'posts', 'action' => 'detail', $post['Post']['id'])); ?></p>
 								<hr>
 								<ul class="list-inline">
-									<li><?php 
+									<li>
+										<i class='glyphicon glyphicon-time'></i>
+										<?php 
 										echo $this->Time->timeAgoInWords(
 											$post['Post']['created'],
 											array('end' => '+1 year',
