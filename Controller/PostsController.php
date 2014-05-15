@@ -37,8 +37,7 @@ class PostsController extends AppController {
 		$this->Paginator->settings = array(
         	'limit' => 5,
 			'order' => array(
-            'Post.created' => 'desc',
-			'Post.id'=>'desc'));
+            'Post.created' => 'desc'));
 		$this->set('posts', $this->Paginator->paginate());
 	}
 
@@ -49,8 +48,7 @@ class PostsController extends AppController {
 		$this->Paginator->settings = array(
         	'limit' => 5,
 			'order' => array(
-            'Post.created' => 'desc',
-			'Post.id'=>'desc'));
+            'Post.created' => 'desc'));
 		
 		$this->set('posts', $this->Paginator->paginate('Post', array(
 				'OR' => array(
@@ -73,8 +71,7 @@ class PostsController extends AppController {
         	'limit' => 5,
 			'order' => array(
 			'Post.comment_count' => 'desc',
-            'Post.created' => 'desc',
-			'Post.id'=>'desc'));
+            'Post.created' => 'desc'));
 		$this->set('posts', $this->Paginator->paginate());
 	}	
 
@@ -89,8 +86,7 @@ class PostsController extends AppController {
 			'conditions' => array('Post.categorie' => '1'),
         	'limit' => 5,
 			'order' => array(
-            'Post.created' => 'desc',
-			'Post.id'=>'desc'));
+            'Post.created' => 'desc'));
 		$this->set('posts', $this->Paginator->paginate());
 	}	
 
@@ -105,8 +101,7 @@ class PostsController extends AppController {
 			'conditions' => array('Post.categorie' => '2'),
         	'limit' => 5,
 			'order' => array(
-            'Post.created' => 'desc',
-			'Post.id'=>'desc'));
+            'Post.created' => 'desc'));
 		$this->set('posts', $this->Paginator->paginate());
 	}	
 
@@ -121,8 +116,7 @@ class PostsController extends AppController {
 			'conditions' => array('Post.categorie' => '3'),
         	'limit' => 5,
 			'order' => array(
-            'Post.created' => 'desc',
-			'Post.id'=>'desc'));
+            'Post.created' => 'desc'));
 		$this->set('posts', $this->Paginator->paginate());
 	}
 
@@ -137,8 +131,7 @@ class PostsController extends AppController {
 			'conditions' => array('Post.categorie' => ''),
         	'limit' => 5,
 			'order' => array(
-            'Post.created' => 'desc',
-			'Post.id'=>'desc'));
+            'Post.created' => 'desc'));
 		$this->set('posts', $this->Paginator->paginate());
 	}	
 	
