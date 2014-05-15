@@ -1,14 +1,20 @@
 <div class="posts form">
 <?php echo $this->Form->create('Post'); ?>
+<div id="edit_infos">
 	<fieldset>
-		<legend><?php echo __('Edit Post'); ?></legend>
-	<?php
-		echo $this->Form->input('id');
-		echo $this->Form->input('title');
-		echo $this->Form->input('body');
-	?>
+	<legend><?php echo __('Edit Post'); ?></legend>
+	<div class="form-group">
+	<?php echo $this->Form->input('id',array('class'=>'form-control')); ?>
+	</div>
+	<div class="form-group">
+	<?php echo $this->Form->input('title',array('class'=>'form-control')); ?>
+	</div>
+	<div class="form-group">
+	<?php echo $this->Form->input('body',array('class'=>'form-control')); ?>
+	</div>
+	<?php echo $this->Form->end(__('Submit')); ?>
 	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
+</div>
 </div>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>

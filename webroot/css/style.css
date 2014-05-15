@@ -146,4 +146,7 @@ a,a:hover {
 	background-size: 100% ;
 }
 
-
+#log_infos, #add_infos, #edit_infos{
+    width:50%;
+    margin-left:25%;
+}

@@ -1146,3 +1146,57 @@ Stack Trace:
 #3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
 #4 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-05-15 09:11:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHP/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(3499): Model->setSource('users')
+#5 /var/www/PHP/cakephp/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/PHP/cakephp/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /var/www/PHP/cakephp/lib/Cake/View/Helper/FormHelper.php(467): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/PHP/cakephp/app/View/Users/login.ctp(3): FormHelper->create('User')
+#9 /var/www/PHP/cakephp/lib/Cake/View/View.php(935): include('/var/www/PHP/ca...')
+#10 /var/www/PHP/cakephp/lib/Cake/View/View.php(897): View->_evaluate('/var/www/PHP/ca...', Array)
+#11 /var/www/PHP/cakephp/lib/Cake/View/View.php(466): View->_render('/var/www/PHP/ca...')
+#12 /var/www/PHP/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-05-15 09:28:16 Error: [NotFoundException] Invalid post
+Request URL: /posts/edit
+Stack Trace:
+#0 [internal function]: PostsController->edit()
+#1 /var/www/PHP/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-15 09:28:27 Error: [MissingActionException] Action PostsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '1',
+)
+Request URL: /posts/1
+Stack Trace:
+#0 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-15 09:28:38 Error: [NotFoundException] Invalid post
+Request URL: /posts/detail/edit/1
+Stack Trace:
+#0 [internal function]: PostsController->detail('edit', '1')
+#1 /var/www/PHP/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
