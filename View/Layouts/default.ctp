@@ -51,7 +51,7 @@ $sitedesc = __d('cake_dev', 'SaFrOl ');
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/index.php" class="navbar-brand">Home</a>
+	  <?php echo $this->Html->link("Home", array('controller' => '', 'action' => 'index'), array('class' => 'navbar-brand')); ?>
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
@@ -89,8 +89,8 @@ $sitedesc = __d('cake_dev', 'SaFrOl ');
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
           <ul class="dropdown-menu" style="padding:12px;">
-            <form class="form-inline">
-              <button type="submit" class="btn btn-default pull-right"><i class="glyphicon glyphicon-search"></i></button><input type="text" class="form-control pull-left" placeholder="Search">
+			<?php echo $this->Form->create(null, array('controller' => 'Posts', 'action' => 'search', 'type' => 'get', 'class' => 'form-inline')); ?>
+              <button type="submit" class="btn btn-default pull-right"><i class="glyphicon glyphicon-search"></i></button><input type="text" class="form-control pull-left" name="query" placeholder="Search">
             </form>
           </ul>
         </li>

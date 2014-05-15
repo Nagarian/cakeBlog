@@ -1255,3 +1255,32 @@ Stack Trace:
 #13 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
 #14 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #15 {main}
+2014-05-15 09:34:18 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/cake
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-15 09:34:32 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [E:\Skydrive\Documents\Project\www\cakephp\app\Controller\CakephpController.php, line 4]
+2014-05-15 09:34:32 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /cakephp/cakephp
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Skydrive\Doc...', 4, Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Skydrive\Doc...', 4, Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-15 09:43:06 Error: Fatal Error (4): syntax error, unexpected '?>' in [E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp, line 92]
+2014-05-15 09:43:06 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /cakephp/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\Skydrive\Doc...', 92)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\Skydrive\Doc...', 92, Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\Skydrive\Doc...', 92, Array)
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
