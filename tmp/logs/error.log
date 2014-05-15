@@ -1284,3 +1284,410 @@ Stack Trace:
 #3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-05-15 09:54:17 Error: [MissingTableException] Table abouts for model About was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'abouts',
+  'class' => 'About',
+  'ds' => 'default',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('abouts')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('About', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:54:21 Error: [MissingTableException] Table abouts for model About was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'abouts',
+  'class' => 'About',
+  'ds' => 'default',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('abouts')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('About', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:54:23 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:54:31 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:54:33 Error: [MissingTableException] Table abouts for model About was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'abouts',
+  'class' => 'About',
+  'ds' => 'default',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('abouts')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('About', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:54:44 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:54:48 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:56:04 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:56:11 Error: [MissingTableException] Table abouts for model About was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'abouts',
+  'class' => 'About',
+  'ds' => 'default',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('abouts')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('About', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:56:27 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:56:30 Error: [MissingTableException] Table abouts for model About was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'abouts',
+  'class' => 'About',
+  'ds' => 'default',
+)
+Request URL: /cakephp/about
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('abouts')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('About', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AboutController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 09:59:15 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 10:00:24 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 10:00:38 Error: [MissingActionException] Action PostsController::partenaires() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'partenaires',
+)
+Request URL: /cakephp/posts/partenaires/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-15 10:00:45 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 10:02:54 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/Partenaires/
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 10:02:57 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/Partenaires/index
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 10:04:26 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-15 10:07:03 Error: [MissingTableException] Table partenaires for model Partenaire was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'partenaires',
+  'class' => 'Partenaire',
+  'ds' => 'default',
+)
+Request URL: /cakephp/partenaires
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('partenaires')
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Partenaire', 'fields')
+#4 E:\Skydrive\Documents\Project\www\cakephp\app\View\Layouts\default.ctp(92): FormHelper->create(NULL, Array)
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(935): include('E:\Skydrive\Doc...')
+#6 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(897): View->_evaluate('E:\Skydrive\Doc...', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(529): View->_render('E:\Skydrive\Doc...')
+#8 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\View\View.php(474): View->renderLayout('', 'default')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PartenairesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
