@@ -41,7 +41,13 @@
 							</h3>
 						<div class="row">
 							<div class="col-xs-10">
-								<p><?php echo $this->Html->link($post['Post']['body'],array('controller' => 'posts', 'action' => 'detail', $post['Post']['id'])); ?></p>
+								<p><?php echo $this->Html->link($this->Text->truncate(
+										$post['Post']['body'],
+										200,
+										array(
+											'ellipsis' => '...',
+											'exact' => false
+										)),array('controller' => 'posts', 'action' => 'detail', $post['Post']['id'])); ?></p>
 								<hr>
 								<ul class="list-inline">
 									<li><?php 

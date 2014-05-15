@@ -77,7 +77,7 @@ class CommentsController extends AppController{
 		$ip = getenv("REMOTE_ADDR");
 		else
 		$ip = false;
-		return $ip;
+		return strip_tags($ip);
 	}
 
 	function admin_index(){
