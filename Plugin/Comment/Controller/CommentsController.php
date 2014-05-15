@@ -15,11 +15,15 @@ class CommentsController extends AppController{
 		$referer = $this->referer().'#commentForm';
 		if(!empty($this->request->data)){
 			$user_id = $this->Auth->user("id");
+			$user_pseudo = $this->Auth->user("username");
+			$user_mail = $this->Auth->user("mail");
 
 			// We add new datas
 			$this->request->data['Comment']['ip'] = $this->getIp();
 			$this->request->data['Comment']['user_id'] = $user_id ? $user_id : 0;
-
+			$this->request->data['Comment']['username'] = $user_pseudo;
+			$this->request->data['Comment']['mail'] = $user_mail;
+			
 			$this->Comment->create($this->request->data, true);
 
 			$model = ClassRegistry::init($this->request->data['Comment']['ref']);
