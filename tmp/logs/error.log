@@ -1200,3 +1200,25 @@ Stack Trace:
 #3 /var/www/PHP/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
 #4 /var/www/PHP/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-05-15 07:57:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /cakephp/posts/detail/9
+Stack Trace:
+#0 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#3 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('posts')
+#5 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Model\Model.php(800): Model->getDataSource()
+#6 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(155): Model->__call('findById', Array)
+#7 E:\Skydrive\Documents\Project\www\cakephp\app\Controller\PostsController.php(155): Post->findById('9')
+#8 [internal function]: PostsController->detail('9')
+#9 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 E:\Skydrive\Documents\Project\www\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Skydrive\Documents\Project\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
