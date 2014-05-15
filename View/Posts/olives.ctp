@@ -32,7 +32,7 @@
 								echo $this->Html->link(
 								$this->Html->image("/img/olives.jpg", array("style" => "width:100px;height:100px", "class" => "img-circle")),
 								array('controller' => 'posts', 'action' => 'detail', $post['Post']['id']), array('escape' => false, 'class' => 'story-img'));
-								break;
+
 						?>
 					</div>
 					<div class="col-md-10 col-sm-9">
