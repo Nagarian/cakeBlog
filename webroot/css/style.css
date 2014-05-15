@@ -150,3 +150,15 @@ a,a:hover {
     width:50%;
     margin-left:25%;
 }
+
+.titlepost{
+	border-color:transparent;
+	border-radius:0;
+	box-shadow:0 10px 20px rgba(0,0,0,.05);
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	text-align:center;
+	position: relative;
+}
